@@ -1,0 +1,17 @@
+
+.employee-dashboard-main-heading{
+    font-size: 20px;
+    text-align: center;
+}
+.employee-dashboard-profile-image-and-name-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+}
+.employee-dashboard-profile-image {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}

@@ -1,0 +1,27 @@
+.employee-details-container{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 80px;
+    width: fit-content;
+}
+.employee-details-main-heading{
+    font-size: 20px;
+    text-align: center;
+}
+.employee-profile-image-and-details-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.employee-profile-image {
+    height: 200px;
+    width: 200px;
+
+}
+.emp-details-heading{
+    font-weight: bold;
+}
+.emp-details-desc{
+    font-weight: normal;
+}

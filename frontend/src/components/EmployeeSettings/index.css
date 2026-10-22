@@ -1,0 +1,28 @@
+
+.employee-change-password-form-container{
+    background-color: #ffffff;
+    color: #db6c12;
+    padding: 30px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.employee-change-password-main-heading{
+    font-size: 20px;
+    text-align: center;
+}
+.input-element{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 35vw;
+}
+.employee-change-password-update-btn{
+    background-color: #db6c12;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    width: 180px;
+    border-width: 0px;
+    cursor: pointer;
+}

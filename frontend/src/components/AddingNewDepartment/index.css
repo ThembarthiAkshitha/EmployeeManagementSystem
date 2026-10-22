@@ -1,0 +1,32 @@
+
+.add-new-department-form-container{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+    width: fit-content;
+    align-items: center;
+}
+.add-new-department-main-heading{
+    font-size: 20px;
+}
+.add-new-department-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: fit-content; */
+}
+.input-element{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 25vw;
+}
+
+.admin-department-add-emp-btn{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    width: 120px;
+    border-width: 0px;
+    cursor: pointer;
+}

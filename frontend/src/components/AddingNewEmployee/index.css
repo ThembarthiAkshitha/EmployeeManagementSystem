@@ -1,0 +1,29 @@
+
+.add-new-employee-form-container{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+    /* width: fit-content; */
+}
+.add-new-emp-main-heading{
+    font-size: 20px;
+}
+.add-new-emp-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input-element{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 35vw;
+}
+.admin-employee-add-emp-btn{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    width: 120px;
+    border-width: 0px;
+    cursor: pointer;
+}

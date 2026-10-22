@@ -1,0 +1,54 @@
+.admin-employee-salary-list-main-bg-container{
+    display: flex;
+    flex-direction: column;
+}
+.admin-employee-salary-list-main-heading{
+    color: #000000;
+    text-align: center;
+}
+.admin-employee-salary-ul-container{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.employee-salary-details-headings-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    color: #000000;
+    align-items: center;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+}
+
+.employee-salary-details-list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    color: #000000;
+    align-items: center;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 3px;
+}
+.emp-salary-details-back-btn{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    width: 180px;
+    border-width: 0px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+.admin-salary-details-para{
+    width: 12%;
+    text-align: center;
+}

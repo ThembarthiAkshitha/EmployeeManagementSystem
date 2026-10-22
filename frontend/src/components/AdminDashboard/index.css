@@ -1,0 +1,110 @@
+
+.admin-dashboard-container{
+    color: #000000;
+    padding: 30px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+}
+.dashboard-details-displaying-row-conatiner{
+    display: flex;
+    flex-direction: row;
+}
+.dashboard-details-bg-container{
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 5px;
+    /* padding: 20px; */
+    width: 250px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.dashboard-details-description-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-around;
+}
+.dashboard-details-heading{
+    font-size: 15px;
+    font-weight: bold;
+}
+.dashboard-details-employee-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    min-width: 68px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    background-color: #159b8c;
+}
+.dashboard-details-departments-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    min-width: 68px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    background-color: #eab308;
+}
+.dashboard-details-monthly-pay-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    min-width: 68px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    background-color: #dc2626;
+}
+.dashboard-details-leaves-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    min-width: 68px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    background-color: #159b8c;
+}
+.dashboard-details-leaves-approved-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    min-width: 68px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    background-color: #22c55e;
+}
+.dashboard-details-leaves-pending-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    min-width: 68px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    background-color: #eab308;
+}
+.dashboard-details-leaves-rejected-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    min-width: 68px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    background-color: #dc2626;
+}

@@ -1,0 +1,92 @@
+.admin-employee-leaves-list-main-bg-container{
+    display: flex;
+    flex-direction: column;
+}
+.admin-employee-leaves-list-main-heading{
+    color: #000000;
+    text-align: center;
+}
+.admin-employee-leaves-list-search-and-btn-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.admin-employee-leaves-search-btn{
+    background-color: white;
+    border-width: 0px;
+}
+.admin-add-emp-btn{
+    /* color: #f5e5d7; */
+    background-color: #3338d4;
+    color: white;
+    /* background-color: #db6c12; */
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.admin-employee-leaves-ul-container{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.employee-details-headings-list{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    background-color: white;
+    color: #000000;
+    align-items: center;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.employee-details-list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    color: #000000;
+    align-items: center;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.employee-list-item-view-btn{
+    /* background-color: #3338d4;
+    color: white; */
+    color: #f5e5d7; 
+    background-color: #db6c12;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-left: 5px;
+}
+
+.emp-details-para-width{
+    width: 20%;
+    text-align: center;
+}
+.emp-details-srno-para-width{
+    width: 10%;
+    text-align: center;
+}
+/* .emp-details-action-para-width{
+    width: 30%;
+    text-align: center;
+} */
+ .admin-add-emp-btn.active {
+    background-color: #db6c12;
+    color: white;
+    border: 1px solid #db6c12;
+}

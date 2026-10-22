@@ -1,0 +1,42 @@
+.employee-details-container{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 80px;
+    width: fit-content;
+}
+.employee-details-main-heading{
+    font-size: 20px;
+    text-align: center;
+}
+.employee-profile-image-and-details-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.employee-profile-image {
+    height: 200px;
+    width: 200px;
+
+}
+.update-employee-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.emp-details-heading{
+    font-weight: bold;
+}
+.emp-details-desc{
+    font-weight: normal;
+}
+
+.employe-details-back-btn{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    width: 120px;
+    border-width: 0px;
+    cursor: pointer;
+}

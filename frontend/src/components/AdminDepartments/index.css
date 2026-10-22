@@ -1,0 +1,85 @@
+.admin-department-list-main-bg-container{
+    display: flex;
+    flex-direction: column;
+}
+.admin-department-list-main-heading{
+    color: #000000;
+    text-align: center;
+}
+.admin-department-list-search-and-btn-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.admin-department-search-btn{
+    background-color: white;
+    border-width: 0px;
+}
+.admin-department-add-dept-btn{
+    /* color: #f5e5d7; */
+    background-color: #3338d4;
+    color: white;
+    /* background-color: #db6c12; */
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.admin-department-ul-container{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.department-details-headings-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    color: #000000;
+    align-items: center;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+}
+
+.department-details-list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    color: #000000;
+    align-items: center;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 3px;
+}
+.department-list-item-edit-btn{
+    /* background-color: #3338d4;
+    color: white; */
+    color: #f5e5d7; 
+    background-color: #db6c12;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-left: 5px;
+}
+.department-list-item-delete-btn{
+    /* background-color: #3338d4;
+    color: white; */
+    color: #f5e5d7; 
+    background-color: #e61c1c;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-left: 5px;
+}
+.admin-departments-srno-width{
+    width: 30%;
+    text-align: center;
+}

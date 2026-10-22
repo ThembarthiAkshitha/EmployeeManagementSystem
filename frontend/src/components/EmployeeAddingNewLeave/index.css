@@ -1,0 +1,35 @@
+
+.add-new-leave-form-container{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 30px;
+    /* width: fit-content; */
+}
+.add-new-leave-main-heading{
+    font-size: 20px;
+}
+.from-to-dates-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-element{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70vw;
+}
+.date-input-element{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 35vw;
+}
+.employee-add-leave-btn{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    width: 120px;
+    border-width: 0px;
+    cursor: pointer;
+}
